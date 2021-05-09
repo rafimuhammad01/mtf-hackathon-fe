@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+    <!-- myCSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <title>Dilan</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div style="background-color: #09215D;color:#fff">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light py-4" style="background-color: #09215D;color:#fff">
+        <div class="d-flex align-items-center justify-content-start">
+          <a class="navbar-brand" href="index.html"><img src="img/logo1.svg" alt=""></a>
+          <h5 class="title-course m-0">The Complete SQL Bootcamp 2021:from Zero to Hero SQL</h5>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <img class="user-image d-inline" src="img/ava.jpg" alt="" />
+              <!-- <div class="nav-link user-image"></div> -->
+              <a class="nav-link d-inline-flex" style="color:#fff">Username</a>
+            </li>
+          </ul>
+        </div>
+      </nav>  
+        
+    </nav>
+          <nav style="background-color: #09215D;color:#fff">
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-kursus-tab" data-bs-toggle="tab" data-bs-target="#nav-kursus" type="button" role="tab" aria-controls="nav-kursus" aria-selected="true">Kursus</button>
+            <button class="nav-link" id="nav-forum-diskusi-tab" data-bs-toggle="tab" data-bs-target="#nav-forum-diskusi" type="button" role="tab" aria-controls="nav-forum-diskusi" aria-selected="false">Forum Diskusi</button>
+            <button class="nav-link" id="nav-catatan-tab" data-bs-toggle="tab" data-bs-target="#nav-catatan" type="button" role="tab" aria-controls="nav-catatan" aria-selected="false">Catatan</button>
+          </div>
+        </nav>
+    </div>
+    </div>
+    <!-- end Navbar -->
+
+    <section class="my-5" >
+        <div class="tab-content">
+        <div class="container tab-pane fade show active" id="nav-kursus" role="tabpanel" aria-labelledby="nav-kursus-tab">
+            <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="kursus-breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a class="text-dark" href="#">Kursus Saya</a></li>
+                  <li class="breadcrumb-item active" aria-current="page"><a class="text-dark" href="#">Bab 1:Nama Bab 1</a></li></li>
+                  <li class="breadcrumb-item active" aria-current="page">Subbab 1.1:Nama 1.1</li>
+                </ol>
+            </nav>
+
+            <div class="wrap">
+             
+              <!-- Kursus -->
+            <div class="materi">
+                <div class="header px-3 py-3 d-flex justify-content-between align-items-center">
+                  <button class="btn text-secondary d-flex align-items-center gap-3">
+                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4.25 0.75L0.75 4L4.25 7.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      Sebelumnya                      
+                  </button>
+
+                    <div class="d-flex gap-3">
+                      <div class="materi-component d-flex align-items-center gap-3">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.75 2.75C0.75 1.64543 1.64543 0.75 2.75 0.75H13.25C14.3546 0.75 15.25 1.64543 15.25 2.75V13.25C15.25 14.3546 14.3546 15.25 13.25 15.25H2.75C1.64543 15.25 0.75 14.3546 0.75 13.25V2.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M11.25 8L5.75 4.75V11.25L11.25 8Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          Materi 1                          
+                      </div>
+                      <div class="materi-component-unactive d-flex align-items-center gap-3">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.75 2.75C0.75 1.64543 1.64543 0.75 2.75 0.75H13.25C14.3546 0.75 15.25 1.64543 15.25 2.75V13.25C15.25 14.3546 14.3546 15.25 13.25 15.25H2.75C1.64543 15.25 0.75 14.3546 0.75 13.25V2.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M11.25 8L5.75 4.75V11.25L11.25 8Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          Materi 2                          
+                      </div>
+                      <div class="materi-component-unactive d-flex align-items-center gap-3">
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M0.75 2.75C0.75 1.64543 1.64543 0.75 2.75 0.75H13.25C14.3546 0.75 15.25 1.64543 15.25 2.75V13.25C15.25 14.3546 14.3546 15.25 13.25 15.25H2.75C1.64543 15.25 0.75 14.3546 0.75 13.25V2.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M11.25 8L5.75 4.75V11.25L11.25 8Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          Materi 3                          
+                      </div>
+                      <div class="materi-component-unactive d-flex align-items-center gap-3">
+                        <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M2.75 15.25H11.25C12.3546 15.25 13.25 14.3546 13.25 13.25V5L9 0.75H2.75C1.64543 0.75 0.75 1.64543 0.75 2.75V13.25C0.75 14.3546 1.64543 15.25 2.75 15.25Z" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M13 5.25H8.75V1" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          
+                          Materi 4                          
+                      </div>
+                      <div class="materi-component-unactive d-flex align-items-center gap-3">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.75 19.25H16.25C17.3546 19.25 18.25 18.3546 18.25 17.25V9L14 4.75H7.75C6.64543 4.75 5.75 5.64543 5.75 6.75V17.25C5.75 18.3546 6.64543 19.25 7.75 19.25Z" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M18 9.25H13.75V5" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M9.75 15.25H14.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path d="M9.75 12.25H14.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          
+                          
+                          Kuis                        
+                      </div>
+                    </div>
+
+                    <button class=" btn btn-custom d-flex align-items-center gap-3">
+                      Setelahnya
+                      <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.75 0.75L4.25 4L0.75 7.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                    </button>
+                </div>
+                <div class="content-materi p-5">
+                    <h5>Judul Materi</h5>
+                    <div class="video m-auto">
+                        <iframe class="responsive-iframe" allowfullscreen src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                    </div>
+                    <h6 class="mt-3 mb-5 fw-bold">Judul Video</h6>
+                    <div class="accordion mb-3" id="accordion">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Transkrip Video
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body unread">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus veniam quidem quisquam quod laboriosam! Temporibus placeat incidunt soluta, eum nostrum officiis repellendus! Saepe explicabo, ullam exercitationem obcaecati numquam accusamus nihil!</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+                    <div class="text-center">
+                        <button class="btn btn-custom px-4 lanjut d-flex align-items-center gap-3 mx-auto">Lanjut
+                          <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M1.25 0.75L4.75 4L1.25 7.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                        </button>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="detail-materi d-none">
+              <div class="header px-3 py-3 d-flex justify-content-between align-items-center">
+                <button class="btn text-secondary d-flex align-items-center gap-3">
+                  <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.25 0.75L0.75 4L4.25 7.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Sebelumnya                      
+                </button>
+
+                  <div class="d-flex gap-3">
+                    <div class="materi-component-unactive d-flex align-items-center gap-3">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.75 2.75C0.75 1.64543 1.64543 0.75 2.75 0.75H13.25C14.3546 0.75 15.25 1.64543 15.25 2.75V13.25C15.25 14.3546 14.3546 15.25 13.25 15.25H2.75C1.64543 15.25 0.75 14.3546 0.75 13.25V2.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11.25 8L5.75 4.75V11.25L11.25 8Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Materi 1                          
+                    </div>
+                    <div class="materi-component-unactive d-flex align-items-center gap-3">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.75 2.75C0.75 1.64543 1.64543 0.75 2.75 0.75H13.25C14.3546 0.75 15.25 1.64543 15.25 2.75V13.25C15.25 14.3546 14.3546 15.25 13.25 15.25H2.75C1.64543 15.25 0.75 14.3546 0.75 13.25V2.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11.25 8L5.75 4.75V11.25L11.25 8Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Materi 2                          
+                    </div>
+                    <div class="materi-component-unactive d-flex align-items-center gap-3">
+                      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.75 2.75C0.75 1.64543 1.64543 0.75 2.75 0.75H13.25C14.3546 0.75 15.25 1.64543 15.25 2.75V13.25C15.25 14.3546 14.3546 15.25 13.25 15.25H2.75C1.64543 15.25 0.75 14.3546 0.75 13.25V2.75Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M11.25 8L5.75 4.75V11.25L11.25 8Z" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        Materi 3                          
+                    </div>
+                    <div class="materi-component d-flex align-items-center gap-3">
+                      <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2.75 15.25H11.25C12.3546 15.25 13.25 14.3546 13.25 13.25V5L9 0.75H2.75C1.64543 0.75 0.75 1.64543 0.75 2.75V13.25C0.75 14.3546 1.64543 15.25 2.75 15.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13 5.25H8.75V1" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        Materi 4                          
+                    </div>
+                    <div class="materi-component-unactive d-flex align-items-center gap-3">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.75 19.25H16.25C17.3546 19.25 18.25 18.3546 18.25 17.25V9L14 4.75H7.75C6.64543 4.75 5.75 5.64543 5.75 6.75V17.25C5.75 18.3546 6.64543 19.25 7.75 19.25Z" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18 9.25H13.75V5" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.75 15.25H14.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.75 12.25H14.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        
+                        Kuis                        
+                    </div>
+                  </div>
+
+                  <button class=" btn btn-custom d-flex align-items-center gap-3">
+                    Setelahnya
+                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.75 0.75L4.25 4L0.75 7.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      
+                  </button>
+              </div>
+
+                <div class="content-materi p-5">
+                    <h5 class="mb-4 ps-1">Judul Materi Cara Jadi Sales 1.1</h5>
+                    <div class="isi-materi">
+                    <p class="fw-light mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quam velit, luctus sed odio vitae, pharetra congue massa. Mauris vulputate iaculis velit id vulputate. Maecenas laoreet ultricies lacus, in tristique neque lacinia quis. Cras semper scelerisque posuere. Aenean eu erat enim. Quisque eget dui vulputate, varius libero nec, ullamcorper eros. Maecenas lacus quam, placerat eget tincidunt sed, dictum id purus. Aenean vitae orci sit amet diam pulvinar mollis. Sed tempor ac lorem eget vehicula. Integer dictum ex vel nisi elementum dictum. Donec in ultricies erat. Etiam mattis elit sapien, nec iaculis erat sollicitudin quis. Donec molestie magna vitae risus placerat, eu hendrerit neque interdum. Donec pulvinar ornare tortor in suscipit. </p>
+                    
+                    <div class="sub-section-img mb-5">
+                    <h6 class="mb-3 fw-bold">Subsection text with image</h6>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="https://source.unsplash.com/random" alt="" width="100%" height="250px">
+                        </div>
+                        <div class="col-md">
+                            <p class="fw-light">Caption image - Lorem ipsum dolor sit amet.consectetur adipiscing elit. Vivamus quam velit, luctus sed odio vitae, pharetra congue massa. Mauris vulputate iaculis velit id vulputate.</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="sub-section-text mb-5">
+                        <h6 class="mb-3 fw-bold">Subsection text</h6>
+                        <p class="fw-light">Caption image - Lorem ipsum dolor sit amet.consectetur adipiscing elit. Vivamus quam velit, luctus sed odio vitae, pharetra congue massa. Mauris vulputate iaculis velit id vulputate.</p>
+                    </div>
+                  </div>
+
+                  <div class="d-flex justify-content-center">
+                    <button class="btn px-4 sebelumnya d-flex align-items-center gap-3">
+                      <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.25 0.75L0.75 4L4.25 7.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        sebelumnya
+                    </button>
+                    <button class="btn btn-custom px-4 lanjut d-flex align-items-center gap-3">Lanjut
+                      <svg width="6" height="8" viewBox="0 0 6 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M1.25 0.75L4.75 4L1.25 7.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                    </button>
+                </div> 
+                </div>
+            </div>
+
+
+            <div class="detail-materi d-none">
+              <div class="header px-3 py-3 d-flex justify-content-between align-items-center">
+                <button class="btn text-secondary d-flex align-items-center gap-3">
+                  <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.25 0.75L0.75 4L4.25 7.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Sebelumnya                      
+                </button>
+
+                  <div class="d-flex gap-3">
+                    <div class="materi-component d-flex align-items-center gap-3">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.75 19.25H16.25C17.3546 19.25 18.25 18.3546 18.25 17.25V9L14 4.75H7.75C6.64543 4.75 5.75 5.64543 5.75 6.75V17.25C5.75 18.3546 6.64543 19.25 7.75 19.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18 9.25H13.75V5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.75 15.25H14.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.75 12.25H14.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        
+                        Kuis                        
+                    </div>
+                  </div>
+
+                  <button class=" btn btn-custom d-flex align-items-center gap-3">
+                    Setelahnya
+                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.75 0.75L4.25 4L0.75 7.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      
+                  </button>
+              </div>
+
+                <div class="content-materi p-5">
+                    <h5 class="mb-4">Kuis 1</h5>
+                    <p class="fw-light mb-4">Deskripsi kuis - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quam velit, luctus sed odio vitae, pharetra congue massa. Mauris vulputate iaculis velit id vulputate. Maecenas laoreet ultricies lacus, in tristique neque lacinia quis. Cras semper scelerisque posuere. Aenean eu erat enim. Quisque eget dui vulputate, varius libero nec, ullamcorper eros. Maecenas lacus quam, placerat eget tincidunt sed, dictum id purus. Aenean vitae orci sit amet diam pulvinar mollis. Sed tempor ac lorem eget vehicula. Integer dictum ex vel nisi elementum dictum. Donec in ultricies erat. Etiam mattis elit sapien, nec iaculis erat sollicitudin quis. Donec molestie magna vitae risus placerat, eu hendrerit neque interdum. Donec pulvinar ornare tortor in suscipit. </p>
+                    
+                    <div class="pertanyaan mb-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h5 class="m-0">Pertanyaan 1</h5>
+                            <button class="btn btn-outline-dark">Poin 10</button>
+                        </div>
+                        <div class="jawaban-wrap ps-3">
+                        <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                          <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                            <p class="m-0">Jawaban 1</p>
+                        </div>
+                        <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                          <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                            <p class="m-0">Jawaban 1</p>
+                        </div>
+                        <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                          <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                            <p class="m-0">Jawaban 1</p>
+                        </div>
+                        <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                          <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                            <p class="m-0">Jawaban 1</p>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="pertanyaan mb-4">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                          <h5 class="m-0">Pertanyaan 1</h5>
+                          <button class="btn btn-outline-dark">Poin 10</button>
+                      </div>
+                      <div class="jawaban-wrap ps-3">
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      </div>
+                  </div>
+
+                  <div class="pertanyaan mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="m-0">Pertanyaan 1</h5>
+                        <button class="btn btn-outline-dark">Poin 10</button>
+                    </div>
+                    <div class="jawaban-wrap ps-3">
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="pertanyaan mb-4">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                      <h5 class="m-0">Pertanyaan 1</h5>
+                      <button class="btn btn-outline-dark">Poin 10</button>
+                  </div>
+                  <div class="jawaban-wrap ps-3">
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  </div>
+              </div>
+                    <div class="text-center">
+                        <button class="btn btn-custom px-4 lanjut">Kirim Jawaban</button>
+                    </div>  
+                </div>
+            </div>
+
+
+            <div class="detail-materi border-dark d-none">
+              <div class="header px-3 py-3 d-flex justify-content-between align-items-center">
+                <button class="btn text-secondary d-flex align-items-center gap-3">
+                  <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.25 0.75L0.75 4L4.25 7.25" stroke="#BDBDBD" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    Sebelumnya                      
+                </button>
+
+                  <div class="d-flex gap-3">
+                    <div class="materi-component d-flex align-items-center gap-3">
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.75 19.25H16.25C17.3546 19.25 18.25 18.3546 18.25 17.25V9L14 4.75H7.75C6.64543 4.75 5.75 5.64543 5.75 6.75V17.25C5.75 18.3546 6.64543 19.25 7.75 19.25Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M18 9.25H13.75V5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.75 15.25H14.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M9.75 12.25H14.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        
+                        Kuis                        
+                    </div>
+                  </div>
+
+                  <button class=" btn btn-custom d-flex align-items-center gap-3">
+                    Setelahnya
+                    <svg width="5" height="8" viewBox="0 0 5 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0.75 0.75L4.25 4L0.75 7.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                      </svg>
+                      
+                  </button>
+              </div>  
+              <div class="header content-materi mb-3">
+                    <div class="d-flex justify-content-between">
+                            <div class="p-4">
+                                <h5>Kamu tidak lulus.</h5>
+                                <p>Nilai kamu harus diatas 75</p>
+                                <div class="d-flex align-items-center gap-2">
+                                    <button class="btn btn-custom">Coba lagi</button>
+                                    <p class="m-0 fw-light">Kamu bisa coba lagi sebanyak 3 kali</p>
+                                </div>
+                            </div>
+                       
+
+                        <div class="align-self-stretch d-flex justify-content-center align-items-center px-4">
+                            <div>
+                                <p class="m-0 mb-1">Nilai kuis</p>
+                                <p class="m-0 text-center fw-bold fs-3 text-danger">65</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                
+                <div class="content-materi p-5">
+                  <h5 class="mb-4">Kuis 1</h5>
+                  <p class="fw-light mb-4">Deskripsi kuis - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus quam velit, luctus sed odio vitae, pharetra congue massa. Mauris vulputate iaculis velit id vulputate. Maecenas laoreet ultricies lacus, in tristique neque lacinia quis. Cras semper scelerisque posuere. Aenean eu erat enim. Quisque eget dui vulputate, varius libero nec, ullamcorper eros. Maecenas lacus quam, placerat eget tincidunt sed, dictum id purus. Aenean vitae orci sit amet diam pulvinar mollis. Sed tempor ac lorem eget vehicula. Integer dictum ex vel nisi elementum dictum. Donec in ultricies erat. Etiam mattis elit sapien, nec iaculis erat sollicitudin quis. Donec molestie magna vitae risus placerat, eu hendrerit neque interdum. Donec pulvinar ornare tortor in suscipit. </p>
+                  
+                  <div class="pertanyaan mb-4">
+                      <div class="d-flex justify-content-between align-items-center mb-3">
+                          <h5 class="m-0">Pertanyaan 1</h5>
+                          <button class="btn btn-success">Poin 10</button>
+                      </div>
+                      <div class="jawaban-wrap ps-3">
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                        <input type="radio" class="jawaban-checkbox" name="radio1" value="">
+                          <p class="m-0">Jawaban 1</p>
+                      </div>
+                      </div>
+                  </div>
+
+                  <div class="pertanyaan mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5 class="m-0">Pertanyaan 1</h5>
+                        <button class="btn btn-danger">Poin 10</button>
+                    </div>
+                    <div class="jawaban-wrap ps-3">
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                      <input type="radio" class="jawaban-checkbox" name="radio2" value="">
+                        <p class="m-0">Jawaban 1</p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="pertanyaan mb-4">
+                  <div class="d-flex justify-content-between align-items-center mb-3">
+                      <h5 class="m-0">Pertanyaan 1</h5>
+                      <button class="btn btn-danger">Poin 10</button>
+                  </div>
+                  <div class="jawaban-wrap ps-3">
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                    <input type="radio" class="jawaban-checkbox" name="radio3" value="">
+                      <p class="m-0">Jawaban 1</p>
+                  </div>
+                  </div>
+              </div>
+
+
+              <div class="pertanyaan mb-4">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <h5 class="m-0">Pertanyaan 1</h5>
+                    <button class="btn btn-success">Poin 10</button>
+                </div>
+                <div class="jawaban-wrap ps-3">
+                <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                  <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                    <p class="m-0">Jawaban 1</p>
+                </div>
+                <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                  <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                    <p class="m-0">Jawaban 1</p>
+                </div>
+                <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                  <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                    <p class="m-0">Jawaban 1</p>
+                </div>
+                <div class="jawaban d-flex gap-3 align-items-center mb-3">
+                  <input type="radio" class="jawaban-checkbox" name="radio4" value="">
+                    <p class="m-0">Jawaban 1</p>
+                </div>
+                </div>
+            </div>
+              </div>
+            </div>
+        </div>
+
+        <!-- End kursus -->
+
+        </div>
+
+        <!-- Forum Diskusi -->
+        <div class="container tab-pane fade" id="nav-forum-diskusi" role="tabpanel" aria-labelledby="nav-forum-diskusi-tab">
+            <div class="container">
+                <div class="d-flex justify-content-between mb-2">
+                    <h3>Forum diskusi</h3>
+                    <button type="button" class="btn btn-custom d-flex align-items-center gap-4" data-bs-toggle="modal" data-bs-target="#pertanyaanModal">
+                      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 0.75V13.25" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M13.25 7H0.75" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                        Ajukan Pertanyaan
+                    </button>
+                </div>
+
+                <div class="btn-group btn-group-sm mb-5" role="group" aria-label="Basic example">
+
+                  <button type="button" class="btn btn-outline-orange active p-2">Terbaru</button>
+                  <button type="button" class="btn btn-outline-orange p-2">Paling banyak Upvote</button>
+                  <button type="button" class="btn btn-outline-orange p-2">Paling banyak dijawab</button>
+                </div>
+                <div class="mt-3">
+                  <div class="row">
+                    <div class="col-lg-11 col-md-11">
+                      <strong class="mb-3">Username 1</strong>
+                      <h5>Cara jadi sales1</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis praesentium a earum voluptate aliquid hic minus minima voluptatibus dicta labore!</p>
+                      <div class="d-flex align-items-center gap-3">
+                      <p class="m-0">Jawaban:2</p>
+                      <button class="btn btn-outline-dark" type="button">Sales</button>
+                     </div>
+                      <hr />
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-1">
+                      <div class="d-flex flex-column align-items-center gap-3">
+                      <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </button>
+                        <p class="m-0">2</p>
+                        <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>                          
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-11 col-md-11">
+                      <strong class="mb-3">Username 1</strong>
+                      <h5>Cara jadi sales1</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis praesentium a earum voluptate aliquid hic minus minima voluptatibus dicta labore!</p>
+                      <div class="d-flex align-items-center gap-3">
+                      <p class="m-0">Jawaban:2</p>
+                      <button class="btn btn-outline-dark" type="button">Sales</button>
+                     </div>
+                      <hr />
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-1">
+                      <div class="d-flex flex-column align-items-center gap-3">
+                      <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </button>
+                        <p class="m-0">2</p>
+                        <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>                          
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-11 col-md-11">
+                      <strong class="mb-3">Username 1</strong>
+                      <h5>Cara jadi sales1</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis praesentium a earum voluptate aliquid hic minus minima voluptatibus dicta labore!</p>
+                      <div class="d-flex align-items-center gap-3">
+                      <p class="m-0">Jawaban:2</p>
+                      <button class="btn btn-outline-dark" type="button">Sales</button>
+                     </div>
+                      <hr />
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-1">
+                      <div class="d-flex flex-column align-items-center gap-3">
+                      <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </button>
+                        <p class="m-0">2</p>
+                        <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>                          
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-11 col-md-11">
+                      <strong class="mb-3">Username 1</strong>
+                      <h5>Cara jadi sales1</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis praesentium a earum voluptate aliquid hic minus minima voluptatibus dicta labore!</p>
+                      <div class="d-flex align-items-center gap-3">
+                      <p class="m-0">Jawaban:2</p>
+                      <button class="btn btn-outline-dark" type="button">Sales</button>
+                     </div>
+                      <hr />
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-1">
+                      <div class="d-flex flex-column align-items-center gap-3">
+                      <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </button>
+                        <p class="m-0">2</p>
+                        <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>                          
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-11 col-md-11">
+                      <strong class="mb-3">Username 1</strong>
+                      <h5>Cara jadi sales1</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis praesentium a earum voluptate aliquid hic minus minima voluptatibus dicta labore!</p>
+                      <div class="d-flex align-items-center gap-3">
+                      <p class="m-0">Jawaban:2</p>
+                      <button class="btn btn-outline-dark" type="button">Sales</button>
+                     </div>
+                      <hr />
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-1">
+                      <div class="d-flex flex-column align-items-center gap-3">
+                      <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </button>
+                        <p class="m-0">2</p>
+                        <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>                          
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-11 col-md-11">
+                      <strong class="mb-3">Username 1</strong>
+                      <h5>Cara jadi sales1</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis praesentium a earum voluptate aliquid hic minus minima voluptatibus dicta labore!</p>
+                      <div class="d-flex align-items-center gap-3">
+                      <p class="m-0">Jawaban:2</p>
+                      <button class="btn btn-outline-dark" type="button">Sales</button>
+                     </div>
+                      <hr />
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-1">
+                      <div class="d-flex flex-column align-items-center gap-3">
+                      <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </button>
+                        <p class="m-0">2</p>
+                        <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>                          
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-11 col-md-11">
+                      <strong class="mb-3">Username 1</strong>
+                      <h5>Cara jadi sales1</h5>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis praesentium a earum voluptate aliquid hic minus minima voluptatibus dicta labore!</p>
+                      <div class="d-flex align-items-center gap-3">
+                      <p class="m-0">Jawaban:2</p>
+                      <button class="btn btn-outline-dark" type="button">Sales</button>
+                     </div>
+                      <hr />
+                    </div>
+                    <div class="col-lg-1 col-md-1 col-xs-1">
+                      <div class="d-flex flex-column align-items-center gap-3">
+                      <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        </button>
+                        <p class="m-0">2</p>
+                        <button class="btn-custom-outline"><svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>                          
+                          </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+              <!-- modal -->
+              <div class="modal fade" id="pertanyaanModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                  <div class="modal-content">
+                    <div class="modal-body">
+                      <form action="#" class="form-group">
+                        <textarea class="form-control modal-header fs-4 border-0" placeholder="Tulis Judul Pertanyaan..." cols="25" rows="1"></textarea>
+                        <textarea class="form-control border-0" placeholder="Tulis dan jelaskan apa yang mau kamu tanyakan" cols="30" rows="6"></textarea>
+                      </form>
+                    </div>
+                    <div class="modal-footer border-0">
+                      <div class="dropdown me-auto">
+                        <button class="btn btn-custom-outline d-flex align-items-center gap-3" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                          Semua Transaksi
+                          <svg width="2" height="25" viewBox="0 0 2 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <line opacity="0.15" x1="0.75" y1="3.27835e-08" x2="0.749999" y2="25" stroke="black" stroke-width="1.5"/>
+                            </svg>
+                            
+                          <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.25 0.75L4 4.25L0.75 0.75" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                          <li><a class="dropdown-item" href="#">topik 1</a></li>
+                          <li><a class="dropdown-item" href="#">topik 2</a></li>
+                          <li><a class="dropdown-item" href="#">topik 3</a></li>
+                        </ul>
+                      </div>
+                      <button type="button" class="btn btn-custom">Submit Pertanyaanmu</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- endModal -->
+        </div>
+
+        <!-- End Forum Diskusi -->
+
+
+        <!-- Catatan -->
+        <div class="container tab-pane fade" id="nav-catatan" role="tabpanel" aria-labelledby="nav-catatan-tab">
+          <h4 class="mb-5">Catatan Materi</h4>
+          <div class="content">
+            <div class="">
+              <div class="mb-5 p-4 pb-0">
+                  <div>
+                    <h5 class="mb-3">Judul Materi</h5>
+                    <p class="m-0 mb-4 fw-light">So let's start by identyfying the difference between user and end user</p>
+
+                    <div class="note">
+                      <p class="fw-bold">Catatan saya:</p>
+                      <p class="fw-light">Catatan tambahan dari saya</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex gap-3 justify-content-end mb-3">
+                <div class="d-flex align-items-center gap-2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.75 19.2498L9 18.2498L18.2929 8.95695C18.6834 8.56643 18.6834 7.93327 18.2929 7.54274L16.4571 5.70696C16.0666 5.31643 15.4334 5.31643 15.0429 5.70696L5.75 14.9998L4.75 19.2498Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.25 19.25H13.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                  <p class="m-0"><a href="" class="btn-merah">Ubah Catatan</a></p>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.75 3.75L3.59115 13.4233C3.68102 14.4568 4.54622 15.25 5.58363 15.25H10.4164C11.4538 15.25 12.319 14.4568 12.4088 13.4233L13.25 3.75" stroke="#FF2222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.75 3.5V2.75C5.75 1.64543 6.64543 0.75 7.75 0.75H8.25C9.35457 0.75 10.25 1.64543 10.25 2.75V3.5" stroke="#FF2222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1 3.75H15" stroke="#FF2222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                    
+                  <p class="m-0"><a href="" class="btn-merah text-danger">Hapus</a></p>
+                </div>
+              </div>
+              <div class="garis w-100 m-0 mb-3"></div>
+
+              <div class="d-flex gap-5 mb-5 p-4 pb-0">
+                  <div>
+                    <h5 class="mb-3">Judul Materi</h5>
+                    <p class="m-0 mb-4 fw-light">So let's start by identyfying the difference between user and end user</p>
+
+                    <div class="note">
+                      <p class="fw-bold">Catatan saya:</p>
+                      <p class="fw-light">Catatan tambahan dari saya</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="d-flex gap-3 justify-content-end mb-3">
+                <div class="d-flex align-items-center gap-2">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.75 19.2498L9 18.2498L18.2929 8.95695C18.6834 8.56643 18.6834 7.93327 18.2929 7.54274L16.4571 5.70696C16.0666 5.31643 15.4334 5.31643 15.0429 5.70696L5.75 14.9998L4.75 19.2498Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M19.25 19.25H13.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                  <p class="m-0"><a href="" class="btn-merah">Ubah Catatan</a></p>
+                </div>
+                <div class="d-flex align-items-center gap-2">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2.75 3.75L3.59115 13.4233C3.68102 14.4568 4.54622 15.25 5.58363 15.25H10.4164C11.4538 15.25 12.319 14.4568 12.4088 13.4233L13.25 3.75" stroke="#FF2222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M5.75 3.5V2.75C5.75 1.64543 6.64543 0.75 7.75 0.75H8.25C9.35457 0.75 10.25 1.64543 10.25 2.75V3.5" stroke="#FF2222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M1 3.75H15" stroke="#FF2222" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                    
+                  <p class="m-0"><a href="" class="btn-merah text-danger">Hapus</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Catatan -->
+
+        </div>
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script>
+    document.querySelectorAll('.lanjut').forEach(item => {
+        item.addEventListener('click',(e) => {
+        const parent = e.target.parentElement.parentElement.parentElement;
+        parent.classList.add('d-none');
+        parent.nextElementSibling.classList.remove('d-none');
+    })
+
+    })
+    document.querySelector('.sebelumnya').addEventListener('click',(e) => {
+        const parent = e.target.parentElement.parentElement.parentElement;
+        parent.previousElementSibling.classList.remove('d-none');
+        parent.classList.add('d-none');
+    })
+</script>
+
+<script src="https://unpkg.com/sharect@2.0.0/dist/sharect.js"></script>
+<script>
+Sharect.config({
+  facebook: false,
+  twitter: false,
+  backgroundColor: '#FCE6E6',
+  iconColor: '#000',
+  selectableElements: ['.isi-materi p'],
+}).appendCustomShareButtons([{
+  icon: "<svg height='30' width='200'><text x='50' y='20' fill='000'>Save to notes</text>Sorry, your browser does not support inline SVG.</svg>",
+  url: '',
+}]).init()
+</script>
+</body>
+</html>          
