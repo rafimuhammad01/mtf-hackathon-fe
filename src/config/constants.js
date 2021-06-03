@@ -1,0 +1,1 @@
+export const BASE_API_URL = 'https://mtf-hackathon-be.herokuapp.com/api/v1'

@@ -1,0 +1,13 @@
+export const DO_LOGIN_REQUEST = 'mtf/app/DO_LOGIN_REQUEST'
+export const DO_LOGIN_SUCCESS = 'mtf/app/DO_LOGIN_SUCCESS'
+export const DO_LOGIN_ERROR = 'mtf/app/DO_LOGIN_ERROR'
+
+export const DO_REGISTER_REQUEST = 'mtf/app/DO_REGISTER_REQUEST'
+export const DO_REGISTER_SUCCESS = 'mtf/app/DO_REGISTER_SUCCESS'
+export const DO_REGISTER_ERROR = 'mtf/app/DO_REGISTER_ERROR'
+
+export const DO_REFRESH_TOKEN_REQUEST = 'mtf/app/DO_REFRESH_TOKEN_REQUEST'
+export const DO_REFRESH_TOKEN_SUCCESS = 'mtf/app/DO_REFRESH_TOKEN_SUCCESS'
+export const DO_REFRESH_TOKEN_ERROR = 'mtf/app/DO_REFRESH_TOKEN_ERROR'
+
+export const DO_LOGOUT_REQUEST = 'mtf/app/DO_LOGOUT_REQUEST'

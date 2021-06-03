@@ -1,0 +1,60 @@
+{
+      "status": 200,
+      "message": "success",
+      "data": {
+          "course_training_total": 4,
+          "total_spent_time": "00:23:00",
+          "avg_score": 100.0,
+          "pewira_miles_balance": 101160.0,
+          "last_course": [
+              {
+                  "id": 3,
+                  "name": "Testing Course 1",
+                  "topic": [
+                      "Testing",
+                      "string"
+                  ],
+                  "last_progress": {
+                      "id": 3,
+                      "title": "Testing Course 1 Section 1 Lesson 1",
+                      "type": "lesson",
+                      "step": {
+                          "id": 3,
+                          "title": "Testing Course 1 Section 1 Lesson 1 Step 1"
+                      }
+                  },
+                  "progress": 0.75,
+                  "img": "http://res.cloudinary.com/dr5j1qjsv/image/upload/v1619689377/r4rro5enqjhppcicpram.png"
+              },
+              {
+                  "id": 16,
+                  "name": "course beneran jadi",
+                  "topic": [
+                      "string"
+                  ],
+                  "last_progress": {
+                      "id": 5,
+                      "title": "string",
+                      "type": "quiz"
+                  },
+                  "progress": 1.0,
+                  "img": "http://res.cloudinary.com/dr5j1qjsv/image/upload/img"
+              }
+          ],
+          "training": [
+              {
+                "date": "2021-06-05",
+                "training": [
+                    {
+                        "id": 8,
+                        "name": "string",
+                        "img": "http://res.cloudinary.com/dr5j1qjsv/image/upload/testing",
+                        "start_time": "2021-06-05T05:41:00Z",
+                        "end_time": "2021-06-05T08:41:00Z",
+                        "linkUrl": "zoom.us"
+                    }
+                ]
+              }
+          ]
+      }
+  }
