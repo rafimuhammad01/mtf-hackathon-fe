@@ -35,7 +35,6 @@ const SignIn = () => {
 			<nav className="navbar navbar-expand-lg navbar-light px-3 py-4" style={{backgroundColor: '#09215D',color:'#fff'}}>
 		      <div className="d-flex align-items-center justify-content-start">
 		        <Link className="navbar-brand" to="/"><img src={Logo1} alt=""/></Link>
-		        <h5 className="title-course m-0">The Complete SQL Bootcamp 2021:from Zero to Hero SQL</h5>
 		      </div>
 
 		      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">

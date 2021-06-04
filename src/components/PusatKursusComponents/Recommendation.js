@@ -1,7 +1,10 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 import { PerwiraMilesLogo } from '../../assets'
 
 const Recommendation = () => {
+  const history = useHistory()
+
 	return (
 		 <section className="recommendation py-4">
             <div className="container">
@@ -31,7 +34,7 @@ const Recommendation = () => {
                     <div className="col-md-3 border-0 mb-5">
                         <img src="https://source.unsplash.com/random" className="card-img-top" alt="..." height="200" />
                       <div className="card-body px-0">
-                        <h5 className="card-title">Card title</h5>
+                        <h5 className="card-title" onClick={() => history.push('/detail-kursus/2')} style={{cursor: 'pointer'}}>Card title</h5>
                         <p className="card-text"><small className="text-muted">Tag topik</small></p>
                         <p className="card-text">25 peserta</p>
                         <div className="price-tag d-flex align-items-center ms-auto gap-2">
@@ -44,7 +47,7 @@ const Recommendation = () => {
                     <div className="col-md-3 border-0 mb-5">
                       <img src="https://source.unsplash.com/random" className="card-img-top" alt="..." height="200" />
                     <div className="card-body px-0">
-                      <h5 className="card-title">Card title</h5>
+                      <h5 className="card-title" onClick={() => history.push('/detail-kursus/2')} style={{cursor: 'pointer'}}>Card title</h5>
                       <p className="card-text"><small className="text-muted">Tag topik</small></p>
                       <p className="card-text">25 peserta</p>
                       <div className="price-tag d-flex align-items-center ms-auto gap-2">
@@ -57,7 +60,7 @@ const Recommendation = () => {
                   <div className="col-md-3 border-0 mb-5">
                     <img src="https://source.unsplash.com/random" className="card-img-top" alt="..." height="200" />
                   <div className="card-body px-0">
-                    <h5 className="card-title">Card title</h5>
+                    <h5 className="card-title" onClick={() => history.push('/detail-kursus/2')} style={{cursor: 'pointer'}}>Card title</h5>
                     <p className="card-text"><small className="text-muted">Tag topik</small></p>
                     <p className="card-text">25 peserta</p>
                     <div className="price-tag d-flex align-items-center ms-auto gap-2">
@@ -70,7 +73,7 @@ const Recommendation = () => {
                 <div className="col-md-3 border-0 mb-5">
                   <img src="https://source.unsplash.com/random" className="card-img-top" alt="..." height="200" />
                 <div className="card-body px-0">
-                  <h5 className="card-title">Card title</h5>
+                  <h5 className="card-title" onClick={() => history.push('/detail-kursus/2')} style={{cursor: 'pointer'}}>Card title</h5>
                   <p className="card-text"><small className="text-muted">Tag topik</small></p>
                   <p className="card-text">25 peserta</p>
                   <div className="price-tag d-flex align-items-center ms-auto gap-2">
@@ -79,9 +82,6 @@ const Recommendation = () => {
                   </div>
                 </div>
               </div>
-
-                    
-
                 </div>
             </div>
         </section>

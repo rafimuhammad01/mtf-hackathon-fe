@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useEffect } from 'react'
 import { Navbar } from '../../components'
 import Dashboard from './Dashboard'
 import Kursus from './Kursus'
@@ -7,6 +7,37 @@ import PerwiraMiles from './PerwiraMiles'
 import DaftarPengguna from './DaftarPengguna'
 
 const Admin = () => {
+	useEffect(() => {
+		document.querySelector('.tambah-kursus').addEventListener('click',(e) =>{
+		    const first = e.target.parentElement.parentElement.parentElement
+		    first.classList.add('d-none')
+		    first.nextElementSibling.classList.remove('d-none')
+		})
+
+		document.querySelector('.tambah-pelatihan').addEventListener('click',(e) =>{
+		    const first = e.target.parentElement.parentElement.parentElement
+		    first.classList.add('d-none')
+		    first.nextElementSibling.classList.remove('d-none')
+		})
+		  
+		document.querySelector('.btn-lanjut').addEventListener('click',(e) => {
+		    e.preventDefault()
+		    const first = e.target.parentElement.parentElement.parentElement
+		    first.classList.add('d-none')
+		    first.nextElementSibling.classList.remove('d-none')
+		})
+		  
+		document.querySelector('.tambah-silabus').addEventListener('click',(e) =>{
+		    e.preventDefault()
+		    const input = document.createElement("input")
+		    input.classList.add('form-control')
+		    input.classList.add('mb-2')
+		    const silabus = document.querySelector('.silabus')
+		    const wrap = document.querySelector('.btn-tambah-wrap')
+		    silabus.insertBefore(input,wrap)
+		})
+	}, [])
+
 	const handleOpenTab = (e, adminName) =>  {
     
 	    let i, tabcontent, tablinks

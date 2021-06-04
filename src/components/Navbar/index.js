@@ -42,6 +42,7 @@ const Navbar = () => {
 			            	<img className="user-image d-inline" src={Avatar} alt="" />
 			              	<a className="nav-link d-inline-flex" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Username</a>
 			              	<ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			              		<li><Link className="dropdown-item" to="/admin">Admin</Link></li>
 				                <li><Link className="dropdown-item" to="/notifikasi">Notifikasi</Link></li>
 				                <li><Link className="dropdown-item" to="/setelan">Setelan</Link></li>
 				                <li><a onClick={handleLogout} className="dropdown-item" href="#">Keluar</a></li>

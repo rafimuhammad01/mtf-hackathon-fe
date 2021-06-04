@@ -1,8 +1,11 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 
 const UpcomingCourse = () => {
+  const history = useHistory()
+  
 	return (
-		<div className="card border-0" style={{width: '100%'}}>
+		<div className="card border-0" style={{width: '100%'}} onClick={() => history.push('/detail-kursus/1')} style={{cursor: 'pointer'}}>
             <img src="https://source.unsplash.com/random" className="card-img-top" alt="..." height="150px" />
             <div className="card-body">
                 <p className="card-text fw-light">COMPUTER ENGINEERING</p>

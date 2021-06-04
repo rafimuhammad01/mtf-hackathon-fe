@@ -1,6 +1,9 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 
 const ContinueCourse = () => {
+  const history = useHistory()
+
 	return (
 		<div className="lanjutkan-kursus mb-5">
           	<div className="d-flex justify-content-between mb-4">
@@ -32,7 +35,7 @@ const ContinueCourse = () => {
 	                	<img src="https://source.unsplash.com/random" className="rounded-2" alt="..." width="100%" height="150px" />
 	              	</div>
 	              	<div className="col-md-8">
-	                	<div className="card-body p-0 ps-3">
+	                	<div className="card-body p-0 ps-3" onClick={() => history.push('/detail-kursus/1')} style={{cursor: 'pointer'}}>
 	                  		<h5 className="card-title mb-4">The Complete SQL Bootcamp 2021: from Zero to Hero SQL</h5>
 	                  		<p className="card-text fw-bold">Bab 1.2:Lorem ipsum</p>
 	                  		<p className="card-text"><small className="text-muted">Terakhir diakses:Sabtu,20 April 2021</small></p>

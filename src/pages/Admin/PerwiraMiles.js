@@ -2,7 +2,7 @@ import React from 'react'
 
 const PerwiraMiles = () => {
 	return (
-		<div id="perwira-miles" className="tabcontent-admin p-3" style={{display: 'block'}}>
+		<div id="perwira-miles" className="tabcontent-admin p-3" style={{display: 'none'}}>
               <h4>Perwira Miles</h4>
               <p>Kirim Perwira Miles Ke Pengguna</p>
               <form className="ms-auto" action="" method="">

@@ -29,9 +29,9 @@ export const Routes = () => {
 				<SecureRoute path="/detail-kursus/:id" component={DetailKursus} />
 				<SecureRoute path="/riwayat-transaksi" component={RiwayatTransaksi} />
 				<SecureRoute path="/schedule-detail" component={ScheduleDetail} />
+				<SecureRoute path="/admin" component={Admin} />
 				<Route path="/login" component={SignIn} />
 				<Route path="/buat-akun" component={SignUp} />
-				<Route path="/admin" component={Admin} />
 			</Switch>
 		</Router>
 	)

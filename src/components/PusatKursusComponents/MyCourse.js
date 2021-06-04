@@ -1,6 +1,9 @@
 import React from 'react'
+import { useHistory } from 'react-router-dom'
 
 const MyCourse = () => {
+  const history = useHistory()
+
 	return (
 		<section className="py-4">
             <div className="container">
@@ -49,7 +52,7 @@ const MyCourse = () => {
                     </div>
 
                     <div className="text-end">
-                      <button className="btn btn-custom">Lanjutkan</button>
+                      <button className="btn btn-custom" onClick={() => history.push('/detail-kursus/2')}>Lanjutkan</button>
                     </div>
                 </div>
 
@@ -70,7 +73,7 @@ const MyCourse = () => {
                   </div>
 
                   <div className="text-end">
-                    <button className="btn btn-custom">Lanjutkan</button>
+                    <button className="btn btn-custom" onClick={() => history.push('/detail-kursus/2')}>Lanjutkan</button>
                   </div>
               </div>
 

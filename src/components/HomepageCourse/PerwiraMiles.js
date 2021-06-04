@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import { PerwiraMilesLogo } from '../../assets'
+import { Link } from 'react-router-dom'
 
 const PerwiraMiles = () => {
 	return (
@@ -19,7 +20,7 @@ const PerwiraMiles = () => {
 	                    <path d="M7 15.3334H13" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 	                    <path d="M7 11.3334H13" stroke="#141414" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 	                    </svg>
-	                  <p className="m-0"><a className="btn-merah fw-light" href="">Riwayat Transaksi</a></p>
+	                  <p className="m-0"><Link className="btn-merah fw-light" to="/riwayat-transaksi">Riwayat Transaksi</Link></p>
 	                </div>
 
 	                <div className="d-flex align-items-center gap-3 mb-3">
